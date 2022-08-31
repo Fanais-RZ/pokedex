@@ -6,7 +6,12 @@ function Icon({ pictureUrl, altText, ...rest }) {
     <Avatar
       alt={altText}
       src={pictureUrl}
-      sx={{ width: 100, height: 100 }}
+      sx={{
+        width: 50,
+        height: 50,
+        display: 'flex',
+        justifyContent: 'center',
+      }}
       {...rest}
     />
   );
